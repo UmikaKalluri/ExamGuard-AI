@@ -1,4 +1,4 @@
-# ExamGuard AI
+# ExamShield
 
 ## Problem
 Exam fraud detection during online/offline exams.
