@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ExamGuard AI Login</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+<div class="bg-shape one"></div>
+<div class="bg-shape two"></div>
+
+<div class="login-container">
+
+    <div class="login-card">
+
+        <div class="top-login">
+
+            <h1>ExamGuard AI</h1>
+
+            <button
+                onclick="toggleTheme()"
+                class="theme-btn">
+
+                🌙 Dark Mode
+            </button>
+
+        </div>
+
+        <p class="subtitle">
+            Predicting Exam Fraud
+            Before It Happens
+        </p>
+
+        <p class="small-text">
+            Secure Examination Intelligence
+        </p>
+
+        <p class="secure-text">
+            🔐 Authorized Personnel Only
+        </p>
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter Username">
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter Password">
+
+        <button onclick="login()">
+            Secure Login
+        </button>
+
+        <p id="error-msg"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
